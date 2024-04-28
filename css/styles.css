@@ -112,6 +112,7 @@ input {
 }
 
 .menu-btn {
+  display: none;
   padding: 0;
   line-height: 0;
   background-color: transparent;
@@ -864,6 +865,10 @@ input {
     display: none;
   }
 
+  .header {
+    padding: 0;
+  }
+
   .header-logo {
     margin-right: 120px;
   }
@@ -1137,6 +1142,22 @@ input {
 
   .advantages-item-text {
     font-weight: 400;
+  }
+
+  .advantages-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+
+  .advantages-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
 
   /*--------------section 3---------------*/
